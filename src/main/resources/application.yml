@@ -1,0 +1,4 @@
+spring:
+  application:
+    name: CourseCatalogService
+message: Hello from default page!
