@@ -54,7 +54,7 @@ class CourseService(val courseRepository: CourseRepository) {
             courseRepository.deleteById(courseId)
         }
         else{
-            throw CourseNotFoundException("No course found for this id: $courseId!")
+            throw CourseNotFoundException("No course aaaafound for this id: $courseId!")
         }
     }
 }
