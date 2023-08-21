@@ -43,7 +43,7 @@ class CourseService(val courseRepository: CourseRepository) {
                 }
         }
         else{
-            throw CourseNotFoundException("No course found for this id: $courseId!")
+            throw CourseNotFoundException("No coursssse found for this id: $courseId!")
         }
     }
 
